@@ -1,0 +1,56 @@
+header,
+main,
+footer {
+  width: 100vw;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.head-sec {
+  position: relative;
+}
+.head-nav {
+  background-color: white;
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
+  margin-bottom: 35px;
+  img {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3d3d3d;
+    padding-top: 33px;
+    height: 80px;
+    .menus {
+      &:hover {
+        padding-bottom: 25px;
+        border-bottom: 3px solid #46a358;
+        cursor: pointer;
+      }
+    }
+  }
+  .menu-right {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    #checkbox {
+      display: none;
+    }
+    .log-btn {
+      width: 100px;
+    }
+  }
+}
